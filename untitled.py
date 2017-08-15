@@ -20,6 +20,8 @@ try:
 			for i, c in enumerate(x):
 				if (i % (len(fields) + 1) == 0) and not (i == 0):
 					f.write("\n")
+				if len(c) > (int(fields[i % len(fields)])):
+					c = c[:(int(fields[i % len(fields)]))]
 				f.write(c + ' ' * (int(fields[i % len(fields)]) - len(c)))
 	with open(dest, 'r') as f:
 		print f.read()
