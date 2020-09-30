@@ -1,4 +1,4 @@
-# ffd
+# Aim--How project works
 A simple python program that takes a sqlite db file and writes it to a <b>F</b>lat <b>F</b>ile <b>D</b>estination (text file) with the allotted field lengths.
 (It makes more sense after you run the program.)
 
